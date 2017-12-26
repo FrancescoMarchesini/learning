@@ -1,4 +1,3 @@
-//guardiamo se funziona i commit
 //http://www.learncpp.com/cpp-tutorial/43-static-duration-variables/
 /*
  *Il seguente programma indata la keyword static
