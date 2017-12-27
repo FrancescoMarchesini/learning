@@ -6,6 +6,9 @@
 /*
  * Static member variable
  * */
+#include<iostream>
+#include <array>
+#include<vector>
 
 //variabile global
 class Qualcosa
@@ -91,11 +94,11 @@ int main(){
 
     //questo comporatamente è molto utile per il debug oggetti multipli all'inteno di una array
     //far vedere a che classe appartengono
-    std::vector<QualcosaDiStaticoUnico> s_array(5, QualcosaDiStaticoUnico());
+   /* std::vector<QualcosaDiStaticoUnico> s_array(5, QualcosaDiStaticoUnico());
     for (int i =0; i<s_array.size(); i++)
     {
         std::cout << s_array[i].getID() << std::endl;
-    }
+    }*/
 
     return 0;
 };
