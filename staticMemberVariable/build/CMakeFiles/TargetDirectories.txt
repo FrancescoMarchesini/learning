@@ -1,0 +1,3 @@
+/home/nvidia/progetti/learning/staticMemberVariable/build/CMakeFiles/edit_cache.dir
+/home/nvidia/progetti/learning/staticMemberVariable/build/CMakeFiles/rebuild_cache.dir
+/home/nvidia/progetti/learning/staticMemberVariable/build/CMakeFiles/staticMemberVariable.dir
