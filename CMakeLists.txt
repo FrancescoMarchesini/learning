@@ -6,5 +6,6 @@ add_subdirectory(staticMemberFunction)
 add_subdirectory(staticMemberVariable)
 add_subdirectory(virtual_function_0)
 add_subdirectory(virtual_function_1)
+add_subdirectory(virtual_function_3)
 
 
