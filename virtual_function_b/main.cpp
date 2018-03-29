@@ -6,12 +6,14 @@ public:
     virtual ~Display(){std::cout<<"Distrutto il Display"<<"\n";}
     virtual void setup(){std::cout<<"Setup del disegno dal Display"<<"\n";}
     virtual void loop(){std::cout<<"loop del disegno dal Display"<<"\n";}
+    virtual void clean(){std::cout<<"Clean del disegno dal Display"<<"\n";}
     void draw(Display &display)
     {
         std::cout<<"----------"<<"\n";
         display.setup();
         std::cout<<"main loop"<<"\n";
         display.loop();
+        display.clean();
         std::cout<<"----------"<<"\n";
 
     }
@@ -26,7 +28,8 @@ public:
     virtual ~App(){std::cout<<"Distrutto l' App"<<"\n";}
     App():Display(){}
     virtual void setup() override{std::cout<<"Init del disegno dall'App"<<"\n";}
-    virtual void loop()override{std::cout<<"loop del disegno dall'App"<<"\n";}
+    virtual void loop()override{std::cout<<"Loop del disegno dall'App"<<"\n";}
+    virtual void clean()override{std::cout<<"Clean del disegno dall'App"<<"\n";}
 };
 
 int main()
