@@ -8,4 +8,5 @@ add_subdirectory(virtual_function_0)
 add_subdirectory(virtual_function_1)
 add_subdirectory(virtual_function_3)
 add_subdirectory(virtual_function_6)
+add_subdirectory(virtual_function_a)
 
